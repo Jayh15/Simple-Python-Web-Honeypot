@@ -156,3 +156,22 @@ def run():
 
 if __name__ == "__main__":
     run()
+
+
+**How to Use**
+Save this code as honeypot.py (or any name you like).
+
+Run with Python 3:
+
+nginx
+Copy
+Edit
+python honeypot.py
+Visit http://localhost:8080 in your browser.
+
+Try entering fake credentials.
+
+Check the web_honeypot_log.txt file for captured attempts with GeoIP info.
+
+Repeat login attempts from the same IP will be blocked.
+
